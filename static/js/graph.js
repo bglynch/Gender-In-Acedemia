@@ -1,3 +1,4 @@
+/*global queue, d3, crossfilter, dc */
 queue()
     .defer(d3.csv, "data/Salaries.csv")
     .await(makeGraphs);
@@ -12,6 +13,7 @@ function makeGraphs(error, salaryData) {
         d.yrs_service = parseInt(d["yrs.service"]);
     });
 
+
     show_discipline_selector(ndx);
     show_percent_that_are_professors(ndx, "Female", "#percent-of-women-professors");
     show_percent_that_are_professors(ndx, "Male", "#percent-of-men-professors");
@@ -24,7 +26,32 @@ function makeGraphs(error, salaryData) {
     dc.renderAll();
 }
 
+// var ndx = crossfilter(...)
+// var dim = ndx.dimension(...)
+// var group = dim.group(...) ... 
 
+// var filtered_group = remove_empty_bins(group) // or filter_bins, or whatever
+
+// chart.dimension(dim)
+//     .group(filtered_group)
+//     ...
+
+
+
+var filtered_group = remove_empty_bins(group) // or filter_bins, or whatever
+function remove_empty_bins(source_group) {
+    return {
+        all:function () {
+            return source_group.all().filter(function(d) {
+                //return Math.abs(d.value) > 0.00001; // if using floating-point numbers
+                return d.value !== 0; // if integers only
+            });
+        }
+    };
+}
+
+
+// Drop down selection menu
 function show_discipline_selector(ndx) {
     var disciplineDim = ndx.dimension(dc.pluck("discipline"));
     var disciplineSelect = disciplineDim.group();
@@ -34,7 +61,7 @@ function show_discipline_selector(ndx) {
         .group(disciplineSelect);
 }
 
-
+// Percentage 
 function show_percent_that_are_professors(ndx, gender, element) {
     var percentageThatAreProf = ndx.groupAll().reduce(
         function (p, v) {
@@ -72,7 +99,7 @@ function show_percent_that_are_professors(ndx, gender, element) {
         .group(percentageThatAreProf);
 }
 
-
+// Bar chart
 function show_gender_balance(ndx) {
     var genderDim = ndx.dimension(dc.pluck("sex"));
     var genderMix = genderDim.group();
@@ -82,16 +109,28 @@ function show_gender_balance(ndx) {
         .height(250)
         .margins({top: 10, right: 50, bottom: 30, left: 50})
         .dimension(genderDim)
-        .group(genderMix)
+        .group(remove_empty_bins(genderMix))
         .transitionDuration(500)
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
+        .elasticX(true)
         .elasticY(true)
         .xAxisLabel("Gender")
         .yAxis().ticks(20);
+        
+    //     spendHistChart
+    // .width(300).height(200)
+    // .dimension(spendDim)
+    // .group(nonEmptyHist)
+    // .x(d3.scaleBand())
+    // .xUnits(dc.units.ordinal)
+    // .elasticX(true)
+    // .elasticY(true);
 }
 
 
+
+// Bar chart
 function show_average_salaries(ndx) {
     var genderDim = ndx.dimension(dc.pluck("sex"));
     var averageSalaryByGender = genderDim.group().reduce(
@@ -135,7 +174,7 @@ function show_average_salaries(ndx) {
         .yAxis().ticks(4);
 }
 
-
+// Stacked bar chart
 function show_rank_distribution(ndx) {
 
     function rankByGender(dimension, rank) {
@@ -187,7 +226,7 @@ function show_rank_distribution(ndx) {
         .margins({top: 10, right: 100, bottom: 30, left: 30});
 }
 
-
+// Scatter plot
 function show_service_to_salary_correlation(ndx) {
     var genderColors = d3.scale.ordinal()
         .domain(["Female", "Male"])
@@ -206,6 +245,8 @@ function show_service_to_salary_correlation(ndx) {
         .width(800)
         .height(400)
         .x(d3.scale.linear().domain([minExperience,maxExperience]))
+        .elasticX(true)
+        .elasticY(true)
         .brushOn(false)
         .symbolSize(8)
         .clipPadding(10)
@@ -219,7 +260,7 @@ function show_service_to_salary_correlation(ndx) {
         })
         .colors(genderColors)
         .dimension(experienceDim)
-        .group(experienceSalaryGroup)
+        .group(remove_empty_bins(experienceSalaryGroup))
         .margins({top: 10, right: 50, bottom: 75, left: 75});
 }
 

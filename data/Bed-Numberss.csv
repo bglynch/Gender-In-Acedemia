@@ -1,0 +1,101 @@
+Hospital,Year,Hospital Group,Bed Type,Public,Private,Non designated,Total
+Children's University Hospital Temple Street,2012,DUBLIN MID-LEINSTER REGION,In-Patient Beds Available,0,0,94,94
+Coombe Women's and Infants University Hospital,2012,DUBLIN MID-LEINSTER REGION,In-Patient Beds Available,106,66,14,186
+Midland Regional Hospital Mullingar,2012,DUBLIN MID-LEINSTER REGION,In-Patient Beds Available,128,35,16,179
+Midland Regional Hospital Portlaoise,2012,DUBLIN MID-LEINSTER REGION,In-Patient Beds Available,110,17,10,137
+Midland Regional Hospital Tullamore,2012,DUBLIN MID-LEINSTER REGION,In-Patient Beds Available,133,38,9,180
+Naas General Hospital,2012,DUBLIN MID-LEINSTER REGION,In-Patient Beds Available,167,7,10,184
+National Maternity Hospital Holles Street,2012,DUBLIN MID-LEINSTER REGION,In-Patient Beds Available,80,61,18,159
+Our Lady's Hospital for Sick Children Crumlin,2012,DUBLIN MID-LEINSTER REGION,In-Patient Beds Available,113,44,30,187
+Royal Victoria Eye and Ear Hospital Dublin,2012,DUBLIN MID-LEINSTER REGION,In-Patient Beds Available,12,13,0,25
+St. Colmcilles Hospital Loughlinstown,2012,DUBLIN MID-LEINSTER REGION,In-Patient Beds Available,98,2,3,103
+St. James's Hospital,2012,DUBLIN MID-LEINSTER REGION,In-Patient Beds Available,615,102,104,821
+St. Luke's Hospital Rathgar,2012,DUBLIN MID-LEINSTER REGION,In-Patient Beds Available,101,29,2,132
+St. Michael's Hospital Dun Laoghaire,2012,DUBLIN MID-LEINSTER REGION,In-Patient Beds Available,56,22,5,83
+St. Vincent's University Hospital Elm Park,2012,DUBLIN MID-LEINSTER REGION,In-Patient Beds Available,370,52,38,460
+Tallaght Hospital,2012,DUBLIN MID-LEINSTER REGION,In-Patient Beds Available,355,114,33,502
+Beaumont Hospital,2012,DUBLIN NORTH EAST REGION,In-Patient Beds Available,437,105,30,572
+Cappagh National Orthopaedic Hospital,2012,DUBLIN NORTH EAST REGION,In-Patient Beds Available,29,13,4,46
+Cavan General Hospital,2012,DUBLIN NORTH EAST REGION,In-Patient Beds Available,189,33,17,239
+Connolly Hospital  Blanchardstown,2012,DUBLIN NORTH EAST REGION,In-Patient Beds Available,139,31,11,181
+Louth County Hospital,2012,DUBLIN NORTH EAST REGION,In-Patient Beds Available,5,1,0,6
+Mater Misericordiae University Hospital,2012,DUBLIN NORTH EAST REGION,In-Patient Beds Available,421,63,41,525
+Monaghan General Hospital,2012,DUBLIN NORTH EAST REGION,In-Patient Beds Available,0,0,0,0
+Our Lady of Lourdes Hospital Drogheda,2012,DUBLIN NORTH EAST REGION,In-Patient Beds Available,226,68,20,314
+Our Ladys Hospital - Navan,2012,DUBLIN NORTH EAST REGION,In-Patient Beds Available,60,26,10,96
+Rotunda Hospital,2012,DUBLIN NORTH EAST REGION,In-Patient Beds Available,99,52,19,170
+St Josephs,2012,DUBLIN NORTH EAST REGION,In-Patient Beds Available,14,4,0,18
+Bantry General Hospital,2012,SOUTHERN REGION,In-Patient Beds Available,37,9,4,50
+Cork University Hospital*,2012,SOUTHERN REGION,In-Patient Beds Available,402,129,22,553
+Cork University Maternity Hospital,2012,SOUTHERN REGION,In-Patient Beds Available,105,35,42,182
+Kerry General Hospital*,2012,SOUTHERN REGION,In-Patient Beds Available,219,32,18,269
+Lourdes Orthopaedic Hospital Kilcreene,2012,SOUTHERN REGION,In-Patient Beds Available,18,5,0,23
+Mallow General Hospital,2012,SOUTHERN REGION,In-Patient Beds Available,50,12,4,66
+Mercy University Hospital Cork,2012,SOUTHERN REGION,In-Patient Beds Available,102,62,12,176
+South Infirmary University Hospital Cork,2012,SOUTHERN REGION,In-Patient Beds Available,93,40,4,137
+South Tipperary General Hospital,2012,SOUTHERN REGION,In-Patient Beds Available,118,43,12,173
+St Luke's Hospital Kilkenny,2012,SOUTHERN REGION,In-Patient Beds Available,182,31,14,227
+Waterford Regional Hospital,2012,SOUTHERN REGION,In-Patient Beds Available,322,72,12,406
+Wexford General Hospital,2012,SOUTHERN REGION,In-Patient Beds Available,118,44,19,181
+Letterkenny General Hospital,2012,WEST REGION,In-Patient Beds Available,163,111,27,301
+Mayo General Hospital,2012,WEST REGION,In-Patient Beds Available,159,65,42,266
+**Sligo General Hospital,2012,WEST REGION,In-Patient Beds Available,206,79,33,318
+Portiuncula Hospital Ballinasloe,2012,GALWAY HOSPITAL REGION,In-Patient Beds Available,99,69,0,168
+Roscommon County Hospital*,2012,GALWAY HOSPITAL REGION,In-Patient Beds Available,58,23,0,81
+University Hospital Galway*,2012,GALWAY HOSPITAL REGION,In-Patient Beds Available,487,120,44,651
+Mid Western Regional Hospital Dooradoyle,2012,MID-WESTERN HOSPITAL REGION,In-Patient Beds Available,263,118,22,403
+Mid Western Regional Hospital Ennis,2012,MID-WESTERN HOSPITAL REGION,In-Patient Beds Available,40,9,6,55
+Mid Western Regional Hospital Nenagh,2012,MID-WESTERN HOSPITAL REGION,In-Patient Beds Available,37,10,2,49
+Mid Western Regional Maternity Hospital ,2012,MID-WESTERN HOSPITAL REGION,In-Patient Beds Available,53,27,19,99
+Mid Western Regional Orthopaedic Hospital Croom,2012,MID-WESTERN HOSPITAL REGION,In-Patient Beds Available,39,15,0,54
+St. John's Hospital Limerick,2012,MID-WESTERN HOSPITAL REGION,In-Patient Beds Available,30,37,1,68
+Children's University Hospital Temple Street,2012,DUBLIN MID-LEINSTER REGION,Number of Day beds/plaecs available,0,0,34,34
+Coombe Women's and Infants University Hospital,2012,DUBLIN MID-LEINSTER REGION,Number of Day beds/plaecs available,18,8,0,26
+Midland Regional Hospital Mullingar,2012,DUBLIN MID-LEINSTER REGION,Number of Day beds/plaecs available,12,1,0,13
+Midland Regional Hospital Portlaoise,2012,DUBLIN MID-LEINSTER REGION,Number of Day beds/plaecs available,9,3,0,12
+Midland Regional Hospital Tullamore,2012,DUBLIN MID-LEINSTER REGION,Number of Day beds/plaecs available,62,4,0,66
+Naas General Hospital,2012,DUBLIN MID-LEINSTER REGION,Number of Day beds/plaecs available,18,0,0,18
+National Maternity Hospital Holles Street,2012,DUBLIN MID-LEINSTER REGION,Number of Day beds/plaecs available,4,4,6,14
+Our Lady's Hospital for Sick Children Crumlin,2012,DUBLIN MID-LEINSTER REGION,Number of Day beds/plaecs available,24,14,0,38
+Royal Victoria Eye and Ear Hospital Dublin,2012,DUBLIN MID-LEINSTER REGION,Number of Day beds/plaecs available,13,7,0,20
+St. Colmcilles Hospital Loughlinstown,2012,DUBLIN MID-LEINSTER REGION,Number of Day beds/plaecs available,8,0,0,8
+St. James's Hospital,2012,DUBLIN MID-LEINSTER REGION,Number of Day beds/plaecs available,93,16,0,109
+St. Luke's Hospital Rathgar,2012,DUBLIN MID-LEINSTER REGION,Number of Day beds/plaecs available,17,3,0,20
+St. Michael's Hospital Dun Laoghaire,2012,DUBLIN MID-LEINSTER REGION,Number of Day beds/plaecs available,17,3,0,20
+St. Vincent's University Hospital Elm Park,2012,DUBLIN MID-LEINSTER REGION,Number of Day beds/plaecs available,18,5,118,141
+Tallaght Hospital,2012,DUBLIN MID-LEINSTER REGION,Number of Day beds/plaecs available,77,15,16,108
+Beaumont Hospital,2012,DUBLIN NORTH EAST REGION,Number of Day beds/plaecs available,127,8,0,135
+Cappagh National Orthopaedic Hospital,2012,DUBLIN NORTH EAST REGION,Number of Day beds/plaecs available,27,7,1,35
+Cavan General Hospital,2012,DUBLIN NORTH EAST REGION,Number of Day beds/plaecs available,53,3,5,61
+Connolly Hospital  Blanchardstown,2012,DUBLIN NORTH EAST REGION,Number of Day beds/plaecs available,38,7,0,45
+Louth County Hospital,2012,DUBLIN NORTH EAST REGION,Number of Day beds/plaecs available,23,4,0,27
+Mater Misericordiae University Hospital,2012,DUBLIN NORTH EAST REGION,Number of Day beds/plaecs available,64,9,0,73
+Monaghan General Hospital,2012,DUBLIN NORTH EAST REGION,Number of Day beds/plaecs available,3,20,0,23
+Our Lady of Lourdes Hospital Drogheda,2012,DUBLIN NORTH EAST REGION,Number of Day beds/plaecs available,22,10,0,32
+Our Ladys Hospital - Navan,2012,DUBLIN NORTH EAST REGION,Number of Day beds/plaecs available,15,2,0,17
+Rotunda Hospital,2012,DUBLIN NORTH EAST REGION,Number of Day beds/plaecs available,10,0,0,10
+St Josephs,2012,DUBLIN NORTH EAST REGION,Number of Day beds/plaecs available,10,4,0,14
+Bantry General Hospital,2012,SOUTHERN REGION,Number of Day beds/plaecs available,9,0,1,10
+Cork University Hospital*,2012,SOUTHERN REGION,Number of Day beds/plaecs available,51,14,0,65
+Cork University Maternity Hospital,2012,SOUTHERN REGION,Number of Day beds/plaecs available,0,0,0,0
+Kerry General Hospital*,2012,SOUTHERN REGION,Number of Day beds/plaecs available,42,1,0,43
+Lourdes Orthopaedic Hospital Kilcreene,2012,SOUTHERN REGION,Number of Day beds/plaecs available,0,0,0,0
+Mallow General Hospital,2012,SOUTHERN REGION,Number of Day beds/plaecs available,3,2,0,5
+Mercy University Hospital Cork,2012,SOUTHERN REGION,Number of Day beds/plaecs available,39,20,0,59
+South Infirmary University Hospital Cork,2012,SOUTHERN REGION,Number of Day beds/plaecs available,24,13,22,59
+South Tipperary General Hospital,2012,SOUTHERN REGION,Number of Day beds/plaecs available,13,3,9,25
+St Luke's Hospital Kilkenny,2012,SOUTHERN REGION,Number of Day beds/plaecs available,18,3,0,21
+Waterford Regional Hospital,2012,SOUTHERN REGION,Number of Day beds/plaecs available,86,17,0,103
+Wexford General Hospital,2012,SOUTHERN REGION,Number of Day beds/plaecs available,36,3,0,39
+Letterkenny General Hospital,2012,WEST REGION,Number of Day beds/plaecs available,54,4,9,67
+Mayo General Hospital,2012,WEST REGION,Number of Day beds/plaecs available,21,4,4,29
+**Sligo General Hospital,2012,WEST REGION,Number of Day beds/plaecs available,40,14,13,67
+Portiuncula Hospital Ballinasloe,2012,GALWAY HOSPITAL REGION,Number of Day beds/plaecs available,13,5,12,30
+Roscommon County Hospital*,2012,GALWAY HOSPITAL REGION,Number of Day beds/plaecs available,12,2,0,14
+University Hospital Galway*,2012,GALWAY HOSPITAL REGION,Number of Day beds/plaecs available,116,22,12,150
+Mid Western Regional Hospital Dooradoyle,2012,MID-WESTERN HOSPITAL REGION,Number of Day beds/plaecs available,74,12,11,97
+Mid Western Regional Hospital Ennis,2012,MID-WESTERN HOSPITAL REGION,Number of Day beds/plaecs available,13,3,0,16
+Mid Western Regional Hospital Nenagh,2012,MID-WESTERN HOSPITAL REGION,Number of Day beds/plaecs available,8,3,0,11
+Mid Western Regional Maternity Hospital ,2012,MID-WESTERN HOSPITAL REGION,Number of Day beds/plaecs available,0,0,0,0
+Mid Western Regional Orthopaedic Hospital Croom,2012,MID-WESTERN HOSPITAL REGION,Number of Day beds/plaecs available,5,5,0,10
+St. John's Hospital Limerick,2012,MID-WESTERN HOSPITAL REGION,Number of Day beds/plaecs available,0,0,10,10
