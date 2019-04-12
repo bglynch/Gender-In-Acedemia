@@ -19,6 +19,8 @@
   <script type="text/javascript" src="static/js/queue.min.js"></script>
   <script type="text/javascript" src="static/js/slainteCare.js"></script>
   <script type="text/javascript" src="static/js/slainteCare.1.js"></script>
+  <script type="text/javascript" src="static/js/slainteCare-IPDC.js"></script>
+  <script type="text/javascript" src="static/js/slainteCare-Beds.js"></script>
 
 </head>
 
@@ -33,6 +35,7 @@
   </nav>
 
   <main>
+    <!--OP Patient List-->
     <section class="section">
       <div class="container">
 
@@ -41,12 +44,10 @@
             <h2>OP WAITING LIST BY GROUP HOSPITAL - 2019</h2>
             <p>The OP Waiting List report shows the total number of patients waiting, across the various time bands, for a first appointment at a consultant-led Outpatient clinic</p>
             <a href="https://data.ehealthireland.ie/dataset/op-waiting-list-by-group-hospital">
-              <p>
-              https://data.ehealthireland.ie/dataset/op-waiting-list-by-group-hospital
-              </p>
-              </a>
-                
-            <div id="discipline-selector">Select Month:  </div>
+              <p>https://data.ehealthireland.ie/dataset/op-waiting-list-by-group-hospital</p>
+            </a>
+
+            <div id="discipline-selector">Select Month: </div>
           </div>
         </div>
 
@@ -62,8 +63,6 @@
         </div>
       </div>
     </section>
-
-
     <section class="section">
       <div class="container">
 
@@ -86,7 +85,6 @@
         </div>
       </div>
     </section>
-
     <section class="section">
       <div class="container">
 
@@ -105,12 +103,86 @@
       </div>
     </section>
 
+    <!--IDPC Patient List-->
+    <section class="section">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 section-heading">
+            <h2>IPDC WAITING LIST BY GROUP HOSPITAL - 2019</h2>
+            <p>The IPDC Waiting List report shows the total number of patients waiting, across the various time bands, for Inpatient and Day case treatment in each Specialty</p>
+            <a href="https://data.ehealthireland.ie/dataset/ipdc-waiting-list-by-group-hospital">
+              <p>https://data.ehealthireland.ie/dataset/ipdc-waiting-list-by-group-hospital</p>
+            </a>
+
+            <div id="IDPC-discipline-selector">Select Month: </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-12">
+            <p class="section-paragraph">Gender in the professorial level:</p>
+          </div>
+
+          <div class="col-xs-12 col-sm-6 col-lg-6">
+            <i class="fa fa-female fa-gender" aria-hidden="true"></i> <span class="number-box" id="percent-of-women-professors"></span>
+            <i class="fa fa-male fa-gender" aria-hidden="true"></i> <span class="number-box" id="percent-of-men-professors"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-4 text-center">
+            <p class="section-paragraph">Patient numbers categorised by <strong>Age</strong></p>
+          </div>
+          <div class="col-xs-12 col-sm-4 text-center">
+            <p class="section-paragraph">Patient numbers categorised by <strong>Waiting Time</strong></p>
+          </div>
+          <div class="col-xs-12 col-sm-4 text-center">
+            <p class="section-paragraph">Patient numbers categorised by <strong>Hopital Group</strong></p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-4 text-center" id="IDPC-age-profile" class="custom-chart"></div>
+          <div class="col-xs-12 col-sm-4 text-center" id="IDPC-waiting-time" class="custom-chart"></div>
+          <div class="col-xs-12 col-sm-4 text-center" id="IDPC-hospital-group" class="custom-chart"></div>
+          <div class="col-xs-12 col-sm-4 text-center" id="IDPC-case-type" class="custom-chart"></div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-xs-6 col-sm-6 text-center">
+            <p class="section-paragraph">Patient numbers categorised by <strong>Hopital</strong></p>
+          </div>
+          <div class="col-xs-6 col-sm-6 text-center">
+            <p class="section-paragraph">Patient numbers categorised by <strong>Speciality</strong></p>
+          </div>
+
+          <div class="col-xs-6 col-sm-6 text-center" id="IDPC-hospital"></div>
+          <div class="col-xs-6 col-sm-6 text-center" id="IDPC-speciality"></div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- People Employed -->
     <section class="section">
       <div class="container">
 
         <div class="row">
           <div class="col-xs-12 col-sm-12 text-center">
-            <p class="section-paragraph">There is a very loose correlation between salary and years since receiving a PhD.</p>
+            <p class="section-paragraph">FIGURE 5.1 PUBLIC HEALTH SERVICE EMPLOYMENT BY GRADE CATEGORY 2007 TO 2016</p>
+            <a href="https://data.ehealthireland.ie/dataset/figure-51-public-health-service-employment-by-grade-category-2007-to-2016">
+              <p>https://data.ehealthireland.ie/dataset/figure-51-public-health-service-employment-by-grade-category-2007-to-2016</p>
+            </a>
+
           </div>
 
           <div class="col-xs-12 col-sm-12 text-center" id="phd-salary"></div>
@@ -118,6 +190,63 @@
 
       </div>
     </section>
+
+    <!--Beds-->
+    <section class="section">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 section-heading">
+            <h2>Beds</h2>
+            <p>The IPDC Waiting List report shows the total number of patients waiting, across the various time bands, for Inpatient and Day case treatment in each Specialty</p>
+            <!--<a href="https://data.ehealthireland.ie/dataset/ipdc-waiting-list-by-group-hospital">-->
+            <!--  <p>https://data.ehealthireland.ie/dataset/ipdc-waiting-list-by-group-hospital</p>-->
+            <!--</a>-->
+
+            <div id="beds-year">Select Year: </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-4 text-center">
+            <p class="section-paragraph">Patient numbers categorised by <strong>Age</strong></p>
+          </div>
+          <div class="col-xs-12 col-sm-4 text-center">
+            <p class="section-paragraph">Patient numbers categorised by <strong>Waiting Time</strong></p>
+          </div>
+          <div class="col-xs-12 col-sm-4 text-center">
+            <p class="section-paragraph">Patient numbers categorised by <strong>Hopital Group</strong></p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-4 text-center" id="beds-type" class="custom-chart"></div>
+          <div class="col-xs-12 col-sm-4 text-center" id="beds-hospital-group" class="custom-chart"></div>
+          <!--<div class="col-xs-12 col-sm-4 text-center" id="IDPC-hospital-group" class="custom-chart"></div>-->
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-xs-6 col-sm-6 text-center">
+            <p class="section-paragraph">Patient numbers categorised by <strong>Hopital</strong></p>
+          </div>
+          <div class="col-xs-6 col-sm-6 text-center">
+            <p class="section-paragraph">Patient numbers categorised by <strong>Speciality</strong></p>
+          </div>
+
+          <div class="col-xs-6 col-sm-6 text-center" id="beds-hospital"></div>
+
+        </div>
+      </div>
+    </section>
+
   </main>
 </body>
 
